@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatsAppSendPdf</string>
+    <string name="url_pdf">https://jorgesys.tripod.com/cert/Jorgesys-StackOverflow.pdf</string>
+    <string name="phone">+5218129099841</string>
+</resources>

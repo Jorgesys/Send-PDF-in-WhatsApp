@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Provider path for a specific path:
+    <files-path/> - internal app storage, Context#getFilesDir()
+    <cache-path/> - internal app cache storage, Context#getCacheDir()
+    <external-path/> - public external storage, Environment.getExternalStorageDirectory()
+    <external-files-path/> - external app storage, Context#getExternalFilesDir(null)
+    <external-cache-path/> - external app cache storage, Context#getExternalCacheDir() -->
+    <!--Environment.getExternalStorageDirectory() Downloads-->
+   <!-- <external-path name="files" path="Download"/> Environment.getExternalStorageDirectory() +  File.separator +  DIRECTORY+ File.separator  + fileName -->
+    <external-path name="files" path="files"/>
+    <external-path name="files" path="/"/> <!--root path is com.jorgesys.whatsappsendpdf/files/ -->
+</paths>
